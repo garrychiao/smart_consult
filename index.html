@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- Bootstrap Material Design -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.css">
+  <link rel="stylesheet" type="text/css" href="css/ripples.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Smart Consult</title>
+  <style media="screen">
+  #csshome {
+    position: relative;
+    background-image: url(img/bg3.jpeg); /*You will specify your image path here.*/
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+  }
+  #cssservice {
+    position: relative;
+    background-image: url(img/bgservice.jpg); /*You will specify your image path here.*/
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+  }
+  #csscontact {
+    position: relative;
+    background-image: url(img/bgcontact.jpg); /*You will specify your image path here.*/
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+  }
+  #title{
+    font-family: Arial;
+    color: #FADBD8;
+  }
+  #content{
+    font-family: Arial;
+    color: #FADBD8;
+    padding-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">Smart Consult</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-right" id="myMenu">
+          <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+          <li data-menuanchor="services"><a href="#services">Services</a></li>
+          <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--end navbar-->
+  <div class="" id="fullpage">
+    <div class="section" id="csshome" align="center">
+      <h1 class="animated pulse" id="title">Smart Consult</h1>
+      <h2 class="animated pulse" id="content">We manage a wide scope of IT projects to help you succeed with your business</h2>
+    </div>
+    <div class="section" id="cssservice" align="center">
+      <div class="slide">
+        <h1 id="title">Business Support</h1>
+        <h2 id="content">We manage a wide variety of IT related projects.</h2>
+        <div class="col-sm-offset-1 col-sm-2 hidden-xs">
+          <span class="fa-stack fa-lg fa-4x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-html5 fa-stack-1x"></i>
+          </span>
+          <h2 id="content">WebSite</h2>
+        </div>
+        <div class="col-sm-2 hidden-xs">
+          <span class="fa-stack fa-lg fa-4x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-cog fa-stack-1x"></i>
+          </span>
+          <h2 id="content">Logo / Business card design</h2>
+        </div>
+        <div class="col-sm-2 hidden-xs">
+          <span class="fa-stack fa-lg fa-4x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-desktop fa-stack-1x"></i>
+          </span>
+          <h2 id="content">Desktop Support</h2>
+        </div>
+        <div class="col-sm-2 hidden-xs">
+          <span class="fa-stack fa-lg fa-4x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-server fa-stack-1x"></i>
+          </span>
+          <h2 id="content">Server / Network Management</h2>
+        </div>
+        <div class="col-sm-2 hidden-xs">
+          <span class="fa-stack fa-lg fa-4x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-users fa-stack-1x"></i>
+          </span>
+          <h2 id="content">Marketing / Online Advertisement</h2>
+        </div>
+      </div>
+      <div class="slide visible-xs" style="padding-top:30px;">
+        <div class="col-xs-6">
+          <span class="fa-stack fa-lg fa-2x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-html5 fa-stack-1x"></i>
+          </span>
+          <h3 id="content">WebSite</h3>
+        </div>
+        <div class="col-xs-6">
+          <span class="fa-stack fa-lg fa-2x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-cog fa-stack-1x"></i>
+          </span>
+          <h3 id="content">Logo / Business card design</h3>
+        </div>
+        <div class="col-xs-12" align="center">
+          <span class="fa-stack fa-lg fa-2x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-desktop fa-stack-1x"></i>
+          </span>
+          <h3 id="content">Desktop Support</h3>
+        </div>
+        <div class="col-xs-6">
+          <span class="fa-stack fa-lg fa-2x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-server fa-stack-1x"></i>
+          </span>
+          <h3 id="content">Server / Network Management</h3>
+        </div>
+        <div class="col-xs-6">
+          <span class="fa-stack fa-lg fa-2x">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-users fa-stack-1x"></i>
+          </span>
+          <h3 id="content">Marketing / Online Advertisement</h3>
+        </div>
+      </div>
+      <div class="slide">
+        <h1 id="title">Business Objective</h1>
+        <h2 id="content">Helping you run your business on low cost operation.</h2>
+        <h2 id="content">We have no term contract.</h2>
+        <h2 id="content">No minimum monthly billing. </h2>
+      </div>
+    </div>
+    <div class="section" id="csscontact">
+      <div class="col-sm-12" align="center">
+        <h1 id="title" class="hidden-xs">General Inquiries & Quotes:</h1>
+        <h1 id="title" class="visible-xs">General Inquiries & Quotes:</h1>
+        <br>
+        <div class="col-sm-4 col-xs-12" align="center">
+          <button type="button" class="btn btn-default btn-lg btn-raised">
+            <span class="fa fa-phone fa-3x hidden-xs" aria-hidden="true"></span>
+            <h4>Tel : 1.403.617.9780</h4>
+          </button>
+        </div>
+        <div class="col-sm-4 col-xs-12" align="center">
+          <a href="mailto:info@smartconsult.ca" class="btn btn-default btn-lg btn-raised">
+            <i class="fa fa-envelope fa-3x hidden-xs"></i>
+            <h5 class="visible-xs">info@smartconsult.ca</h5>
+            <h3 class="hidden-xs">info@smartconsult.ca</h3>
+          </a>
+        </div>
+        <div class="col-sm-4 hidden-xs">
+          <a class="btn btn-lg btn-default btn-raised" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <span class="fa fa-globe fa-3x" aria-hidden="true"></span>
+            <h3>Location</h3>
+          </a>
+          <div class="collapse" id="collapseExample">
+            <div class="well">
+              70 Royal Oak Plaza NW Calgary AB
+              <iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=70%20Royal%20Oak%20Plaza%20NW%2C%20Calgary%2C%20AB%2C%20Canada&key=AIzaSyAFpllDDTKOIMHw7vJrebtQKbPifQ5pAxY" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 visible-xs">
+          <a class="btn btn-lg btn-default btn-raised" role="button" data-toggle="collapse" href="#collapseExample-xs" aria-expanded="false" aria-controls="collapseExample">
+            <h5>Location</h5>
+          </a>
+          <div class="collapse" id="collapseExample-xs">
+            <div class="well">
+              70 Royal Oak Plaza NW Calgary AB
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ripples.min.js"></script>
+  <script src="js/material.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+  <script type="text/javascript">
+    $.material.init();
+    $(document).ready(function() {
+    $('#fullpage').fullpage({
+        anchors:['home', 'services', 'contact'],
+        menu: '#myMenu'
+    });
+});
+  </script>
+
+</body>
+</html>
